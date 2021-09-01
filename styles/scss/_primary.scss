@@ -1,0 +1,83 @@
+.primary {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+  p {
+    margin-bottom: unset;
+  }
+
+  &__block {
+    background-color: $lightGrayishBlue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    div {
+      margin: 8px 0;
+    }
+    .social {
+      display: flex;
+      align-items: center;
+      img {
+        margin-right: 5px;
+      }
+      &__name {
+        font-weight: $bold;
+        color: $darkGrayishBlue;
+      }
+    }
+
+    .stats {
+      text-align: center;
+      &__number {
+        font-size: 50px;
+      }
+      &__name {
+        color: $darkGrayishBlue;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+      }
+    }
+
+    .today_update {
+      display: flex;
+      align-items: center;
+
+      img{
+        margin-right: 5px;
+      }
+    }
+  }
+  .facebook {
+    border-top: 5px solid $facebook;
+  }
+
+  .twitter {
+    border-top: 5px solid $twitter;
+  }
+
+  .instagram {
+    border-top: 5px solid transparent;
+    background: linear-gradient($lightGrayishBlue, $lightGrayishBlue) padding-box,
+                linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%)) border-box;
+  }
+
+  .youtube {
+    border-top: 5px solid $youtube;
+  }
+
+  @media screen and (min-width: $break-sm) {
+    flex-direction: row;
+  }
+
+  @media screen and (max-width: $break-md - 1) {
+    .lol {
+      --bs-gutter-x: 0;
+    }
+  }
+}

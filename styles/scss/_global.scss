@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: $fontsize;
+  font-family: $inter;
+}
+
+.main {
+  padding: 30px;
+  @media screen and (min-width: $break-md) {
+    padding: 30px 150px;
+  }
+}
+
+.up {
+  color: $limeGreen;
+  font-weight: $bold;
+}
+
+.down {
+  color: $brightRed;
+  font-weight: $bold;
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link rel="stylesheet" href="styles/css/main.css" class="css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <header class="header">
+        <div class="header__title">
+            <h1>Social Media Dashboard</h1>
+            <p>Total Followers: 23,004</p>
+        </div>
+        <hr>
+        <div class="header__switch">
+            <p>Dark Mode</p>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </header>
+    <section class="primary">
+        <div class="row lol w-100">
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="primary__block facebook ">
+                    <div class="social">
+                        <img src="images/icon-facebook.svg" alt="icon-facebook"/>
+                        <p class="social__name">@nathanf</p>
+                    </div>
+                    <div class="stats">
+                        <h1 class="stats__number">1987</h1>
+                        <p class="stats__name">Followers</p>
+                    </div>
+                    <div class="today_update">
+                        <img src="images/icon-up.svg" alt="icon-up"/>
+                        <p class="up">12 Today</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="primary__block twitter">
+                    <div class="social">
+                        <img src="images/icon-twitter.svg" alt="icon-twitter"/>
+                        <p class="social__name">@nathanf</p>
+                    </div>
+                    <div class="stats">
+                        <h1 class="stats__number">1044</h1>
+                        <p class="stats__name">Followers</p>
+                    </div>
+                    <div class="today_update">
+                        <img src="images/icon-up.svg" alt="icon-up"/>
+                        <p class="up">99 Today</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="primary__block instagram">
+                    <div class="social">
+                        <img src="images/icon-instagram.svg" alt="icon-instagram"/>
+                        <p class="social__name">@realnathanf</p>
+                    </div>
+                    <div class="stats">
+                        <h1 class="stats__number">11k</h1>
+                        <p class="stats__name">Followers</p>
+                    </div>
+                    <div class="today_update">
+                        <img src="images/icon-up.svg" alt="icon-up"/>
+                        <p class="up">1099 Today</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="primary__block youtube">
+                    <div class="social">
+                        <img src="images/icon-youtube.svg" alt="icon-youtube"/>
+                        <p class="social__name">Nathan F.</p>
+                    </div>
+                    <div class="stats">
+                        <h1 class="stats__number">8239</h1>
+                        <p class="stats__name">Subscribers</p>
+                    </div>
+                    <div class="today_update">
+                        <img src="images/icon-down.svg" alt="icon-down"/>
+                        <p class="down">144 Today</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="secondary">
+        <h1 class="secondary__title">Overview - Today</h1>
+        <div class="row lol w-100">
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="secondary__block">
+                    <div class="stats">
+                        <p class="stats__name">Page Views</p>
+                        <p class="stats__number">87</p>
+                    </div>
+                    <div class="today_update up">
+                        <img src="images/icon-facebook.svg" alt="icon-facebook"/>
+                        <p>
+                            <img src="images/icon-up.svg" alt="icon-up"/>
+                            3%
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="secondary__block">
+                    <div class="stats">
+                        <p class="stats__name">Likes</p>
+                        <p class="stats__number">52</p>
+                    </div>
+                    <div class="today_update down">
+                        <img src="images/icon-facebook.svg" alt="icon-facebook"/>
+                        <p>
+                            <img src="images/icon-down.svg" alt="icon-down"/>
+                            2%
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="secondary__block">
+                    <div class="stats">
+                        <p class="stats__name">Likes</p>
+                        <p class="stats__number">5462</p>
+                    </div>
+                    <div class="today_update up">
+                        <img src="images/icon-instagram.svg" alt="icon-instagram"/>
+                        <p>
+                            <img src="images/icon-up.svg" alt="icon-up"/>
+                            2257%
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="secondary__block">
+                    <div class="stats">
+                        <p class="stats__name">Profile Views</p>
+                        <p class="stats__number">52k</p>
+                    </div>
+                    <div class="today_update up">
+                        <img src="images/icon-instagram.svg" alt="icon-instagram"/>
+                        <p>
+                            <img src="images/icon-up.svg" alt="icon-up"/>
+                            1375%
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="secondary__block">
+                    <div class="stats">
+                        <p class="stats__name">Retweets</p>
+                        <p class="stats__number">117</p>
+                    </div>
+                    <div class="today_update up">
+                        <img src="images/icon-twitter.svg" alt="icon-twitter"/>
+                        <p>
+                            <img src="images/icon-up.svg" alt="icon-up"/>
+                            303%
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="secondary__block">
+                    <div class="stats">
+                        <p class="stats__name">Likes</p>
+                        <p class="stats__number">507</p>
+                    </div>
+                    <div class="today_update up">
+                        <img src="images/icon-twitter.svg" alt="icon-twitter"/>
+                        <p>
+                            <img src="images/icon-up.svg" alt="icon-up"/>
+                            553%
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="secondary__block">
+                    <div class="stats">
+                        <p class="stats__name">Likes</p>
+                        <p class="stats__number">107</p>
+                    </div>
+                    <div class="today_update down">
+                        <img src="images/icon-youtube.svg" alt="icon-youtube"/>
+                        <p>
+                            <img src="images/icon-down.svg" alt="icon-down"/>
+                            19%
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="secondary__block">
+                    <div class="stats">
+                        <p class="stats__name">Total Views</p>
+                        <p class="stats__number">1407</p>
+                    </div>
+                    <div class="today_update down">
+                        <img src="images/icon-youtube.svg" alt="icon-youtube"/>
+                        <p>
+                            <img src="images/icon-down.svg" alt="icon-down"/>
+                            12%
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</div>
+
+<div class="attribution">
+    Coded by <a href="https://github.com/benjaminli7">Benjamin Li</a>.
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.secondary {
+  p {
+    margin-bottom: unset;
+  }
+  &__title {
+    font-size: 28px;
+    color: $darkGrayishBlue;
+    margin-bottom: 30px;
+  }
+  &__block {
+    background: $lightGrayishBlue;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 20px 30px;
+    .stats {
+      &__name {
+        font-weight: $bold;
+        color: $darkGrayishBlue;
+        margin-bottom: 25px;
+      }
+      &__number {
+        font-size: 32px;
+        font-weight: $bold;
+      }
+    }
+    .today_update {
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      p {
+        margin-top: auto;
+      }
+    }
+  }
+}
